@@ -1,0 +1,9 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/orm/hbm">
+
+    <class name="HBM_fileProject.Employee" table="employee">
+            <id name="empID" column="emp_id" >     </id>
+            <property name="empName" column="emp_name"> </property>
+            <property name="empSal" column="emp_sal"> </property>
+    </class>
+
+</hibernate-mapping>
